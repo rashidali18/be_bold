@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&family=Pacifico&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&family=Pacifico&family=Permanent+Marker&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.header{
+  overflow: hidden;
+  padding: 20px;
+  background-color: #4682B4;
+}
+  
+.header h1{
+  float: left;
+  color: #fff;
+}
+.logo{
+  font-family: 'pacifico', cursive;
+  font-size: medium;
+  padding-right: 150px;
+}
+#logopic{
+  margin-left: 100px;
+  width: 40px;
+}
+.nav{
+  float: right;
+  /* background-color: black; */
+
+  padding: 5px 80px;
+  font-size: large;
+}
+.nav ol{
+  display: inline;
+  padding: 20px;
+  color: #fff;
+}
+p{
+  padding-top: 30px;
+}
+h6{
+  padding-top: 60px;
+  padding-right: 300px;
+}
+h1{
+  padding-top: 50px;
+  font-size: 100px;
+}
+.col{
+  padding-top: 50px;
+  margin-left:50px ;
+  
+  
+}
+
+.form-check-label{
+ padding-right: 300px;
+}
+.col-sm-10{
+  padding-top: 40px;
+  margin-left: 50px;
+}
+
+
+
+
+

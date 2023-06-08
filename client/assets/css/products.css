@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&family=Pacifico&family=Permanent+Marker&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Jost', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  /* z-index: 1000; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10%;
+}
+.logo{
+  font-family: 'pacifico', cursive;
+  font-size: medium;
+  padding-right: 150px;
+}
+#logopic{
+  margin-left: 100px;
+  width: 40px;
+}
+
+.navmenu{
+  display: flex;
+}
+.navmenu a{
+  color: #2c2c2c;
+  font-size: 16px;
+  text-transform: capitalize;
+  padding: 20px 10px;
+  font-weight: 400;
+  transition: all .42s ease;
+}
+section{
+  padding: 5% 10%;
+ 
+}
+.main-home{
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://static.wixstatic.com/media/c837a6_4442b6892e4b4e44babd8a05468d3a82~mv2.jpg/v1/fill/w_980,h_572,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_4442b6892e4b4e44babd8a05468d3a82~mv2.jpg);
+  
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  align-items: center;
+}
+.main-text img{
+  width: 980px;
+  height: 572px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.main-text h5{
+ color: #EE1C47;
+ font-size: 16px;
+ text-transform: capitalize;
+ font-weight: 500;
+}
+.main-text h1{
+  color: #000;
+  font-size: 65px;
+  text-transform: capitalize;
+  line-height: 1.1;
+  font-weight: 600;
+  margin: 6px 0 10px;
+}
+.main-text p{
+  color: black;
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.main-btn{
+  display: inline-block;
+  color: #111;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  border:2px solid #111;
+  padding: 12px 45px;
+  transition: all .42s ease;
+}
+.main-btn:hover{
+background-color: #000;
+color: #fff;
+}
+.main-btn i{
+  vertical-align: middle;
+}
+/* trending css */
+.center-text h2{
+color: #111;
+text-transform: capitalize;
+font-size: 28px;
+text-align: center;
+margin-bottom: 30px;
+}
+.center-text h2 span{
+  color: #e70808;
+
+}
+.product{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(260px,auto));
+  gap: 2rem;
+}
+.row{
+  position: relative;
+}
+.row img:hover{
+  transform:scale(0.9);
+}
+/* .product-text{
+  position: absolute;
+  top: 13px;
+  left: 0px;
+  color:#fff;
+  font-size:12px ;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #27b757;
+  padding: 3px 10px;
+  border-radius: 2px; */
+/* } */
+/* .heart-icons{
+  position: absolute;
+  right: 0;
+  font-size: 20px;
+} */
+.rating i{
+  color: #FF8C00;
+  font-size: 18px;
+}
+
