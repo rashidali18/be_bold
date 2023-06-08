@@ -48,7 +48,7 @@
             </div>
         
             <div class="d-flex justify-content-between py-4 my-4 border-top">
-              <p>© 2021 Company, Inc. All rights reserved.</p>
+              <p>© 2022 Company, Inc. All rights reserved.</p>
               <ul class="list-unstyled d-flex">
                 <li class=""><a class="link-dark" href=""><svg class="bi" width="10" height="10"> <img src="twitter_.png" alt=""></svg></a></li>
                 <li class=""><a class="link-dark" href=""><svg class="bi" width="10" height="10"> <img src="insta.png" alt=""></svg></a></li>
